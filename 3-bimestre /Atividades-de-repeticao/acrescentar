@@ -1,0 +1,16 @@
+programa
+{
+	inclua biblioteca Arquivos-->a
+	
+	funcao inicio()
+	{
+	cadeia tarefas
+		inteiro arq = a.abrir_arquivo("./teste.txt", a.MODO_ACRESCENTAR)  //para criar um arq é so ir na pasta portugol abrir no terminar "touch nomedoarquivo.txt"
+		escreva("Escreva as suas tarefas diárias\n")
+		leia(tarefas)
+		
+		a.escrever_linha(tarefas, arq)
+		
+		a.fechar_arquivo(arq)
+	}
+}
