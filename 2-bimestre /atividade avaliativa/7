@@ -1,0 +1,41 @@
+<?php
+                                                                        $matriz = [];
+
+function lerMatriz($linhas, $colunas) 
+{
+  
+    $matriz = [];
+
+    
+    for ($i = 0; $i < $linhas; $i++)
+    {
+        for ($j = 0; $j < $colunas; $j++) 
+        {
+            echo "Digite o valor para a posição [$i][$j]: ";
+            $matriz[$i][$j] = intval(readline());
+        }
+    }
+   return $matriz;
+}
+
+function exibirNumerosPares($matriz) 
+{
+      echo "Números pares e suas posições:\n";
+          foreach ($matriz as $i => $linha) 
+          {
+              foreach ($linha as $j => $valor) 
+              {
+                    if ($valor % 2 == 0)
+                    {
+                            echo "Número par encontrado: {$valor} (Posição: [$i][$j])\n";
+            }
+        }
+    }
+}
+
+  $linhas = 3;
+  $colunas = 5;
+  
+  $matriz = lerMatriz($linhas, $colunas);
+  exibirNumerosPares($matriz);
+?>

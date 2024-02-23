@@ -1,0 +1,16 @@
+<?php
+    $nr = array
+    (
+        array(1,4,7),
+        array(9,8,11),
+        array(12,14,13),
+    );
+
+    foreach ($nr as $linha) 
+    {
+        foreach ($linha as $nr) 
+        {
+            echo $nr . ' ';
+        }
+        echo "\n";
+    }

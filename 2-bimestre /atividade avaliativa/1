@@ -1,0 +1,17 @@
+$numeros[3] = [1, 22, 333];
+for($i=0; $i < 3; $i++){
+  print($numeros[$i]. "-");
+}
+
+
+
+Memória
+  $i = 0
+
+  $i = 1
+
+  $i = 2
+
+
+CONSOLE
+  1-22-333

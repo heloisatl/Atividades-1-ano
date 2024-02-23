@@ -1,0 +1,19 @@
+<?php
+  function contarEremover(&$txt, &$caractere) 
+  {
+        $ocorrencias = 0;
+        
+        $txt = str_replace($caractere, '', $txt, $ocorrencias);
+        
+        return $ocorrencias;
+        
+  }
+
+$frase = "oi meu nome é Heloisa e meu apelido é helo";
+$letra = 'h';
+
+$resultado = contarEremover($frase, $letra);
+
+echo "Texto modificado: $frase\n";
+echo "Número de vezes que '$letra' foi removido: $resultado\n";
+?>
