@@ -1,0 +1,33 @@
+programa
+{
+	inclua biblioteca Texto
+	
+	funcao inicio()
+	{
+		cadeia ss  = "senha"
+		cadeia sa = "admin"
+		cadeia sp = "password"
+		cadeia  n = "12345"
+		cadeia senha
+		
+		escreva("informe uma senha para o programa: ")
+		leia(senha)
+	
+		enquanto (senha == ss ou senha == sa ou senha == sp ou senha == n){
+			escreva("Senha inválida, insira outra. \n")
+			leia(senha)
+			
+		}
+
+		escreva("Senha válida informada")
+
+
+
+			
+			
+		
+			
+		
+		
+	}
+}

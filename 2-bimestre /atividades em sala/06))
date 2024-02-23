@@ -1,0 +1,28 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro nmr
+		inteiro aux = 0
+		escreva("me informe um número: ")
+		leia(nmr)
+
+		limpa()
+
+		enquanto(aux<=nmr ){
+			escreva(aux , ", " )
+			aux++
+		}
+
+		escreva("\n*****************************************\n")
+		 
+		aux = 0
+		
+ 		enquanto(nmr>=aux){
+			escreva(nmr, ", 1
+			")
+			nmr--
+ 		}
+	}
+}

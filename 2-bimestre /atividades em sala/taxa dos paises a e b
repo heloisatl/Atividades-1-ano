@@ -1,0 +1,20 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	
+		inteiro a= 80000
+		inteiro b= 200000
+		
+		real taxaa= 0.03
+		real taxab= 0.015
+		inteiro anos = 0
+			para(anos=0; b>=a; anos++){
+				escreva(anos ,"\n")
+				a+= a*taxaa
+				b+= b*taxab
+			}
+		escreva("Em " , anos , " anos o país a irá superar o país b.")
+	}
+}

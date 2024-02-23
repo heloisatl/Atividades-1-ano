@@ -1,0 +1,28 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	inteiro n1
+	inteiro n2
+	
+		escreva("informe um numero: ")
+		leia(n1)
+		escreva("informe outro numero: ")
+		leia(n2)
+
+
+		enquanto(n1<=n2 ){
+			escreva(n1++ , ", " )
+		}
+
+		escreva("\n********************************************************************************\n")
+		
+		//está indo dois numeros a mais do que deveria
+ 		enquanto(n2>=n1){
+			escreva(n2--)
+			
+			
+	}
+}
+}

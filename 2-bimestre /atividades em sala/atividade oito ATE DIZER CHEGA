@@ -1,0 +1,21 @@
+programa
+{
+	inclua biblioteca Util
+ --> u
+	
+	funcao inicio()
+	{
+		inteiro aleatorio
+		cadeia resposta
+		
+	aleatorio = u.sorteia(0, 1000000000)
+
+	escreva("Quando desejar que o programa pare, digite CHEGA. \n")
+	leia(resposta)
+	
+		enquanto(resposta!="CHEGA"){
+		escreva(aleatorio , "\n")
+	aleatorio = u.sorteia(0, 1000000000)
+	leia(resposta) }
+}
+}
