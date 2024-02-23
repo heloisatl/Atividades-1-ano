@@ -1,0 +1,54 @@
+A:
+
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro antr,atual,prox, l
+
+		antr = 0
+		atual = 1
+		l = 610
+		
+		escreva("Série de fibonnaci até",l, ": ")
+		//o,1,1,2,3,5,8,13...
+		
+		enquanto(atual <= l){
+			escreva(" ",atual,"; ")
+
+			prox = antr + atual
+			antr = atual
+			atual = prox
+		}
+	}
+}
+
+
+----------------------------------------------------------------------------------------
+B:
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro antr,atual,prox, l
+
+		antr = 0
+		atual = 1
+		
+		escreva("informe o limite da série \n")
+		leia(l)
+		
+		escreva("Série de fibonnaci até",l, ": ")
+		//o,1,1,2,3,5,8,13...
+		
+		enquanto(atual <= l){
+			escreva(" ",atual,"; ")
+
+			prox = antr + atual
+			antr = atual
+			atual = prox
+		}
+	}
+}

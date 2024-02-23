@@ -1,0 +1,34 @@
+programa
+{
+	
+	funcao inicio()
+	{
+
+		inteiro n1
+		inteiro n2
+		inteiro n3
+		inteiro n4
+		inteiro n5
+		inteiro numero
+		
+		escreva("Escolha um número \n")
+		leia(n1)
+		
+		escreva("Escolha um número \n")
+		leia(n2)
+		
+		escreva("Escolha um número \n")
+		leia(n3)
+		
+		escreva("Escolha um número \n")
+		leia(n4)
+		
+		escreva("Escolha um número \n")
+		leia(n5)
+	numero=n1+n2+n3+n4+n5
+	numero=numero/5
+
+		escreva(numero , " é a média dos números")
+		
+	}
+}

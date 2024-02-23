@@ -1,0 +1,18 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	
+	inteiro a = 80000
+	inteiro b = 200000
+	inteiro anos
+	
+		para(anos=0; b>=a; anos++){
+	a+= a * 0.03
+	b+= b * 0.015
+		}
+	escreva("Em ", anos , " anos o país a ultrapassará o país b.")
+	
+	}
+}
