@@ -1,0 +1,22 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro m2
+		inteiro tinta = 18
+		
+	escreva("Informe o tamanho em metros quadrados da área a ser pintada \n")
+	leia(m2)
+
+		se(m2<54){
+			escreva("Você usará apenas uma lata de tinta, gastando R$480,00  \n")
+		}
+ 		senao{
+ 		m2 = m2/3
+ 		m2 = m2/tinta
+ 		escreva ( "Você ultilizará " , m2 ," lata(s) de tinta, e gastará R$" , m2 * 480 , " reais." )
+		}
+	
+ 		}
+}

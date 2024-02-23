@@ -1,0 +1,21 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	inteiro n1
+	inteiro n2
+	
+		escreva("Insira um número \n")
+		leia(n1)
+		escreva("Insira outro numero \n")
+		leia(n2)
+
+		se(n1<n2){
+			escreva(n2)
+		}
+		senao{
+			escreva(n1)
+		}
+	}
+}

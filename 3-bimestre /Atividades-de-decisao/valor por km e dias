@@ -1,0 +1,20 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real km
+		real dias
+		real valor
+		escreva("Quantos kmh você andou? \n")
+		leia(km)
+		escreva("Quantos dias você andou de carro? \n")
+		leia(dias)
+
+		dias = dias * 60
+		km = km * 0.15
+		valor = km + dias
+
+		escreva("Você tem de pagar " , valor , " reais")
+	}
+}

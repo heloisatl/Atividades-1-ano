@@ -1,0 +1,29 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro r1
+		inteiro r2
+		inteiro r3
+
+		escreva("Informe um valor \n")
+		leia(r1)
+
+		escreva("informe outro valor \n")
+		leia(r2)
+
+		escreva("informe mais um numero \n")
+		leia(r3)
+
+		se(r1>r2 e r2>r3){
+			escreva( r1 , " " , r2 , " " , r3)}
+
+		se(r3>r2 e r2>r1){
+			escreva(r3 ," ", r2," ", r1)}
+
+		se(r2>r1 e r1>r3){
+			escreva(r2," ",r1," ",r3)}
+
+	}
+}

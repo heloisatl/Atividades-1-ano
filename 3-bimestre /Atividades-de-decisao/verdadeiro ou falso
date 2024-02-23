@@ -1,0 +1,31 @@
+programa
+{
+	inclua biblioteca Matematica
+	
+	funcao inicio()
+	{
+		  se( 2 * 4 == 24/3){
+			escreva("verdadeiro \n")
+		} senao{escreva("falso \n")}
+		  se((15 % 4) < (19 % 6)){
+			escreva("verdadeiro \n")}
+			senao{escreva("falso \n")}
+			
+			se(nao(2 < 5) != (8 == 8)){
+			escreva("verdadeiro \n")}
+			senao{escreva("falso \n")}
+			
+			se(verdadeiro ou falso){
+			escreva("verdadeiro \n")}
+			senao{escreva("falso \n")}	
+					
+			se(2*2 == Matematica.potencia(2, 2)){
+			escreva("verdadeiro \n")}
+			senao{escreva("falso \n")}
+			
+			se(verdadeiro e ( (7 / 2) > 3.5 )){
+			escreva("verdadeiro \n")}
+			senao{escreva("falso \n")}
+						
+	}
+}

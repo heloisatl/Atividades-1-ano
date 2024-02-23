@@ -1,0 +1,38 @@
+programa
+{
+	inclua biblioteca Matematica
+ -->m
+	
+	funcao inicio()
+	{
+		real a
+		real b
+		real c
+		real delta
+		real x1
+		real x2
+		
+		escreva("insira o valor de A sendo (ax² bx c) \n")
+		leia(a)
+		escreva("insira o valor de B sendo (ax² bx c) \n")
+		leia(b)
+		escreva("insira o valor de C sendo (ax² bx c) \n")
+		leia(c)
+
+		delta = b*b - 4*a*c
+		escreva( "a=" ,a , "x²   " ,"b=", b , "x   " ,"c=", c , "   "  , "\n")
+		escreva(delta ," é o valor de delta \n")
+
+		delta= m.raiz(delta , 2.0)
+		
+		x1 = (-b) + delta 
+		escreva(x1 / 2 , "\n")
+
+		
+		x2 = (-b) - delta 
+		escreva(x2 / 2)
+		
+//por que not a number?
+		
+	}
+}

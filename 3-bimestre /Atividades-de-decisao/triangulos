@@ -1,0 +1,27 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	inteiro triang1
+	inteiro triang2
+	inteiro triang3
+	
+		escreva("Escreva a medida  do lado A do triangulo \n")
+		leia(triang1)
+		escreva("Escreva a medida  do lado B do triangulo \n")
+		leia(triang2)
+		escreva("Escreva a medida  do lado C do triangulo \n")
+		leia(triang3)
+
+		se( triang1==triang2 e triang2==triang3 e triang3==triang1){
+			escreva("O triângulo é equilátero. \n")
+		}
+		se(triang1==triang2 e triang1!=triang3 ou triang1==triang3 e triang2!=triang3 ou triang1!=triang2 e triang2==triang3){
+			escreva("O triângulo é  isosceles \n")
+		}
+		se(triang1!=triang2 e triang3!=triang1 e triang2!=triang3){
+			escreva("O triângulo é escaleno \n")
+		}
+	}
+}

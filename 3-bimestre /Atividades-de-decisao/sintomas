@@ -1,0 +1,41 @@
+programa
+{
+	
+	funcao inicio()
+	{
+
+	inteiro tosse
+	inteiro coriza
+	inteiro respirar
+	inteiro garganta
+	inteiro febre
+		escreva("Responda com 1 e 2, sendo 1=sim 2=não. \n")
+		escreva("Você está com tosse?")
+		leia(tosse)
+		
+		escreva("VOcê sente dores de garganta? \n")
+		leia(garganta)
+
+		escreva("Você está com febre?")
+		leia(febre)
+
+		escreva("Você está com coriza? \n")
+		leia(coriza)
+
+		escreva("Você está com dificuldade de respirar? \n")
+		leia(respirar)
+
+		se( tosse==1 e coriza==1 e respirar==1 e febre==1){
+			escreva("as chances de você estar com covid19 sao altissimas, procure um medico \n")
+		}
+		se( tosse==2 e coriza==2 e respirar==1 e febre==2){
+			escreva("È provavel que esteja com covid19, pois está com sintomas graves, procure um medico \n")
+		}
+		se(tosse==1 e coriza==1 e respirar==2 e febre==1){
+			escreva("É provavel que esteja doente, faça o teste")
+		}		
+		se( tosse==2 e coriza==2 e respirar==2 e febre==2){
+			escreva("as chances de você estar com covid19 sao baixas,")
+		}
+	}
+}

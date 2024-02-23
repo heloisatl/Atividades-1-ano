@@ -1,0 +1,19 @@
+programa
+{
+	inclua biblioteca Texto
+	
+	funcao inicio()
+	{
+		cadeia resposta
+			escreva("Informe um caracter em MAIÚSCULO \n")
+			leia(resposta)
+
+			se(resposta== "A" ou resposta== "e" ou resposta== "I" ou resposta== "O" ou resposta== "U"){
+				escreva("A letra é uma vogal \n")
+			}
+			senao{
+				escreva("A letra é uma consoante \n")
+			}
+			
+	}
+}

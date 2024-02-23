@@ -1,0 +1,18 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	inteiro km
+	inteiro pagar
+		escreva("Quantos kmh você estava andando de carro? \n")
+		leia(km)
+		se(km==80 ou km>80){
+		pagar=km-80
+		pagar = pagar*7
+		escreva("Você deve R$" , pagar , " reais")	
+		}
+		
+	}
+}
+
