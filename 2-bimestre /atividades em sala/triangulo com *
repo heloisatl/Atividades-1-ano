@@ -1,0 +1,10 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	
+		para(inteiro linha=1 ; linha<=2; linha++){
+			para(inteiro coluna=1; coluna <= linha; coluna++){
+			escreva("* ")
+			}
